@@ -1,0 +1,52 @@
+# =========================
+# STM32 CubeMX + Keil(MDK-ARM)
+# =========================
+
+# ---- OS / Editor ----
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*.bak
+*.tmp
+*.log
+
+# ---- CubeIDE / Eclipse (in case generated) ----
+.project
+.cproject
+.settings/
+*.launch
+
+# ---- Keil MDK-ARM build outputs ----
+# Common output folders
+Objects/
+Listings/
+
+# If outputs exist under MDK-ARM/<target>/
+MDK-ARM/**/Objects/
+MDK-ARM/**/Listings/
+
+# Output files
+*.axf
+*.elf
+*.out
+*.hex
+*.bin
+*.map
+*.lst
+*.d
+*.dep
+*.crf
+*.o
+*.obj
+*.sbr
+*.pbi
+*.pbd
+*.pbi.*
+
+# Keil user/session files (often per-user; can cause noise)
+*.uvgui.*
+*.uvoptx
+
+# ---- CubeMX user temp ----
+*.mx~*
